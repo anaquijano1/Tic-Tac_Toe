@@ -5,7 +5,7 @@ const resetButton = document.getElementById('reset');
 let currentPlayer = 'X'; // 'X' starts the game
 let board = ['', '', '', '', '', '', '', '', '']; // Empty board array
 let isGameOver = false; // Flag to track if the game is over
-message.textContent = "Click to start!";
+
 
 const winningCombinations = [
   [0, 1, 2], [3, 4, 5], [6, 7, 8],  // Rows
@@ -15,6 +15,7 @@ const winningCombinations = [
 
 function handleCellClick(e) {
   const index = e.target.getAttribute('data-index');
+  message.style.color = 'black';
 
   if (board[index] !== '' || isGameOver) {
     message.textContent = "Invalid move, try again!";
@@ -66,6 +67,7 @@ function resetGame() {
   });
 
   message.textContent = `Player ${currentPlayer}'s turn`;
+  message.style.color = 'black';
 }
 
 cells.forEach(cell => {
