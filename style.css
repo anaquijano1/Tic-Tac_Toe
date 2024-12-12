@@ -98,6 +98,7 @@ body{
   
   #reset {
     margin-top: 10px;
+     margin-bottom: 10px;
     padding: 10px 30px;
     font-size: 20px;
     cursor: pointer;
@@ -108,7 +109,7 @@ body{
   }
   
   #message {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 32px;
     color: black;
     font-weight: 250;
