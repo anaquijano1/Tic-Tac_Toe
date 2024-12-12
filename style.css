@@ -94,6 +94,7 @@ body{
     background-color: #d3d3d3;
     cursor: pointer;
     border: 2px solid black;
+     margin-top: 0px;
   }
   
   #reset {
