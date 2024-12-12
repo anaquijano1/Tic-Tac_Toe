@@ -16,13 +16,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
     padding: 0;
     margin-bottom: 0%;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 250;
     font-style: normal;
+     margin-top: 0%;
+    margin-bottom: 0%;
   }
   #bottom{
     display: flex;
@@ -81,7 +82,7 @@ body{
     grid-template-rows: repeat(3, 140px);
     gap: 5px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color:white;
   }
   
